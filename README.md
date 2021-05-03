@@ -1,3 +1,8 @@
+2021-05-03
+add language ko
+
+==============
+
 # Integration of Lunr in Antora
 
 [![Build Status](https://github.com/Mogztter/antora-lunr/workflows/Build/badge.svg?branch=master)](https://github.com/Mogztter/antora-lunr/actions?query=workflow%3ABuild)

@@ -1,13 +1,13 @@
 {
-  "name": "antora-lunr",
+  "name": "@eastuni/antora-lunr-ko",
   "version": "0.8.0",
-  "description": "Generate a Lunr index from a catalog.",
+  "description": "Fork antora-lunr and change @eastuni/lunr-languages-ko",
   "license": "MIT",
-  "author": "Guillaume Grossetie <g.grossetie@gmail.com>",
+  "author": "Donnie Jo",
   "homepage": "https://antora.org",
-  "repository": "https://github.com/Mogztter/antora-lunr",
-  "bugs": {
-    "url": "https://github.com/Mogztter/antora-lunr/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eastuni/antora-lunr.git"
   },
   "main": "lib/index.js",
   "engines": {
@@ -30,7 +30,7 @@
     "cheerio": "^1.0.0-rc.2",
     "html-entities": "^1.2.1",
     "lunr": "2.3.8",
-    "lunr-languages": "^1.4.0"
+    "@eastuni/lunr-languages-ko": "^1.4.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
@@ -38,5 +38,12 @@
     "js-yaml": ">=3.13.1",
     "mocha": "^8.0.1",
     "standard": "^16.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/eastuni/antora-lunr/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
